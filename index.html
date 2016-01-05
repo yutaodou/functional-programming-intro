@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Awesome Presentation</title>
+    <title>Functional Programming in 10 Minutes</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <style type="text/css">
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -14,6 +14,21 @@
         font-weight: normal;
       }
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+      .left-column {
+        color: #777;
+        width: 20%;
+        height: 92%;
+        float: left;
+      }
+      .left-column h2:last-of-type, .left-column h3:last-child {
+          color: #000;
+        }
+      .right-column {
+        width: 75%;
+        float: right;
+        padding-top: 1em;
+      }
     </style>
   </head>
   <body>
@@ -21,7 +36,7 @@
 
 class: center, middle
 
-# Functional Programming in 10 mins
+# Functional Programming in 10 Minutes
 
 ---
 class: center, middle
@@ -37,7 +52,7 @@ class: center, middle
 
 # Characteristics of functional programming
 
-1. function as 1st class citizen
+1. Function as 1st class citizen
 2. immutability
 3. no side effect
 4. concise and expressive
@@ -46,42 +61,59 @@ class: center, middle
 
 ---
 
-# Function as 1st class citizen
+.left-column[
+## Functions
+]
+
+.right-column[
+  - this looks good
+- this looks good
+- this looks good
+- this looks good
+]
 
 ---
 
-# immutability
+.left-column[
+## Immutability
+]
+---
+
+.left-column[
+## No side effect
+]
+---
+
+.left-column[
+## Expressive
+]
 
 ---
 
-# no side effect
+.left-column[
+## Recursion
+]
 
 ---
 
-# expressive
+.left-column[
+## Currying
+]
 
 ---
 
-# recursion
+## Realword functional programming in Javascript
 
 ---
 
-# currying
-
----
-
-# Realword functional programming in Javascript
-
----
-
-# Realword functional programming in Java
+## Realword functional programming in Java
 
 ---
 
 # Want to learn more?
 
     </textarea>
-    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js" type="text/javascript">
+    <script src="js/remark-latest.min.js" type="text/javascript">
     </script>
     <script type="text/javascript">
       var slideshow = remark.create();
